@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Hello World!'",
-    "start": "serve"
+    "start": "serve",
+    "hello": "echo 'this is hello from hello'"
   },
   "author": "",
   "license": "ISC",
