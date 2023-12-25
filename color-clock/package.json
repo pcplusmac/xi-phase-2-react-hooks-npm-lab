@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo 'Hello World!'",
     "start": "serve",
-<<<<<<< HEAD
     "build": "esbuild index.js --bundle --outfile=dist/out.js"
-=======
-    "hello": "echo 'this is hello from hello'"
->>>>>>> ebc4b8344cad5d18c6a593362062c98c30be68be
   },
   "author": "",
   "license": "ISC",
