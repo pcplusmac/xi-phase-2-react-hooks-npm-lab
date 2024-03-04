@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Hello World!'",
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
     "start": "serve",
-    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+    "build": "esbuild index.js --bundle --outfile=dist/out.js",
+    "hello":"aloha"
   },
   "author": "",
   "license": "ISC",
